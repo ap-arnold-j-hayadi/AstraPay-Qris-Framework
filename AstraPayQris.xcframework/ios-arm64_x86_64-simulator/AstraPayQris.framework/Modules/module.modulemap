@@ -1,0 +1,11 @@
+framework module AstraPayQris {
+  umbrella header "AstraPayQris.h"
+  export *
+
+  module * { export * }
+}
+
+module AstraPayQris.Swift {
+  header "AstraPayQris-Swift.h"
+  requires objc
+}
