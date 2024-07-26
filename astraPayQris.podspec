@@ -13,10 +13,12 @@ AstraPay Qris SDK simplifies the integration of QRIS payments and top-up functio
 
 
   spec.author       = { "Astrapay" => "devops@astrapay.com" }
-  spec.source       = { :git => "https://github.com/ap-arnold-j-hayadi/AstraPay-Qris-Framework", :tag => 'v1.0.0' }
+  spec.source       = { :git => "https://github.com/ap-arnold-j-hayadi/AstraPay-Qris-Framework.git", :tag => 'v1.0.0' }
 
   spec.dependency 'lottie-ios', '4.1.3'
   spec.dependency 'SnapKit'
+  
+  spec.ios.deployment_target     = '13.4'
 
   spec.swift_version      	= "5.3"
   spec.vendored_frameworks	= 'AstraPayQris.xcframework'
